@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="form-container" style="max-width: 600px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: #f0f8ff;">
+        <h2 style="text-align: center; color: #ff4500;">Registration Form</h2>
+        <form>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="name">Enter Name:</label>
+                <input type="text" id="name" name="name" style="width: 100%; padding: 10px;">
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password" name="password" style="width: 100%; padding: 10px;">
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="address">Enter Address:</label>
+                <textarea id="address" name="address" style="width: 100%; padding: 10px;"></textarea>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label>Select Game:</label><br>
+                <input type="checkbox" id="hockey" name="game" value="Hockey">
+                <label for="hockey">Hockey</label><br>
+                <input type="checkbox" id="football" name="game" value="Football">
+                <label for="football">Football</label><br>
+                <input type="checkbox" id="badminton" name="game" value="Badminton">
+                <label for="badminton">Badminton</label><br>
+                <input type="checkbox" id="cricket" name="game" value="Cricket">
+                <label for="cricket">Cricket</label><br>
+                <input type="checkbox" id="volleyball" name="game" value="Volleyball">
+                <label for="volleyball">Volleyball</label>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="age">Select your age:</label>
+                <select id="age" name="age" style="width: 100%; padding: 10px;">
+                    <option value="below 18">Below 18</option>
+                    <option value="18-25">18-25</option>
+                    <option value="25-40">25-40</option>
+                    <option value="above 40">Above 40</option>
+                </select>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="photo">Select Photo:</label>
+                <input type="file" id="photo" name="photo" style="width: 100%; padding: 10px;">
+            </div>
+            <div style="text-align: center;">
+                <input type="submit" value="Click Me" style="padding: 10px 20px; margin-right: 10px;">
+                <input type="reset" value="Reset" style="padding: 10px 20px; margin-right: 10px;">
+                <input type="submit" value="Submit Form" style="padding: 10px 20px;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
